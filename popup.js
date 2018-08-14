@@ -1,4 +1,4 @@
-var display = document.getElementById("url_label");
+/*var display = document.getElementById("url_label");
 function updateDisplay() {
     display.innerHTML = chrome.tabs.query({active:true}, function(tabs) {
         var tabURL = tabs[0].url;
@@ -13,4 +13,4 @@ function updateDisplay() {
         display.innerHTML = d.getTime();
     });
 }
-updateDisplay();
+updateDisplay();*/
