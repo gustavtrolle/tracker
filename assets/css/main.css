@@ -1,0 +1,145 @@
+.spacing {
+    background-color:transparent;
+    width: 100vw;
+}
+
+body {
+    font-family: "Abel", sans-serif;   
+}
+
+#cover {
+    background-color:black;
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    opacity:0;
+    z-index: 3;
+}
+
+header {
+    background-color:tomato;
+    padding: 10px;
+    width:100vw;
+    z-index:2;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+
+#header_logo {
+    height:60px;
+    margin-left:100px;
+}
+
+#header_logo_img {
+    position:relative;
+    bottom:74px;
+    left:250px;
+    z-index:2;
+}
+
+#header_shadow {
+    position: fixed;
+    width: 110vw;
+    height: 25px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)40%,rgba(0,0,0,0));
+    opacity: 0.9;
+    z-index:1;
+    left:-5vw;
+    top:94px;
+    -webkit-filter:blur(3px);
+}
+
+#header_button {
+    color:white;
+    background-color:transparent;
+    border-style: hidden;
+    font-size:1.5em;
+    position:fixed;
+    top:36px;
+    left:40px;
+    z-index:5;
+    outline:0;
+}
+
+h1 {
+    color:white;
+}
+
+nav {
+    background-color:teal;
+    position:fixed;
+    top:0px;
+    left:-200px;
+    height:100vh;
+    width:175px;
+    font-size:1.5em;
+    z-index:4;
+}
+
+nav ul {
+    list-style-type:none;
+    margin-left:10px;
+    margin-top:95px;
+}
+
+nav li {
+    padding-bottom:20px;
+}
+
+nav a:link {
+    color:white;
+}
+
+nav a:visited {
+    color:white;
+}
+
+.body_stuff {
+    margin-left:50px;
+    margin-top:25px;
+    z-index:-5;
+    position:relative;
+    top:100px;
+}
+
+#body_main_img_cont:before {
+    position: absolute;
+    content: '';
+    background-image: linear-gradient(rgba(255,255,255,0)40%,rgba(255,255,255,1)80%);
+    left:-60px;
+    top:-50px;
+    width: 100vw;
+    height: 56.25vw;
+    pointer-events: none;
+    z-index:-10
+}
+
+
+#body_main_img {
+    position:relative;
+    margin-left:-60px;
+    margin-top:-50px;
+    width:100vw;
+    height: 56.25vw;
+    z-index: -11;
+}
+
+#body_main_title {
+    color:white;
+    position:relative;
+    text-align: center;
+    margin-left:-60px;
+    margin-top:-40vw;
+    height:30vw
+}
+
+h3 {
+    font-size:1.75em;
+}
+
+p {
+    font-size:1.25em;
+}

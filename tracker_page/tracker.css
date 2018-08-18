@@ -1,0 +1,15 @@
+#timeline {
+    width:45vw;
+    height: 64800px;
+    background-color: transparent;
+    position:relative;
+}
+
+.l1 {
+    width:3px;
+    height: 64803px;
+    position: absolute;
+    left: 125px;
+    top:108px;
+    background-color: black;
+}
