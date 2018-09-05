@@ -39,6 +39,7 @@
     <?php
     date_default_timezone_set('America/New_York');
     $d = date("Y-m-d");
+    $dlw = date("Y-m-d", time()-60*60*24*7);
     
     $servername = "localhost";
     $username = "root";
@@ -49,6 +50,9 @@
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
     if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
+    
+    $sql = "DELETE FROM activities WHERE date<'".$dlw."'";
+    if ($conn->query($sql) === FALSE) alert("Error: " . $sql . "<br>" . $conn->error);
     
     $sql = "DELETE FROM todayact";
     if ($conn->query($sql) === FALSE) alert("Error: " . $sql . "<br>" . $conn->error);
@@ -71,7 +75,7 @@
             $count++;
         }
     } else {
-        alert("0 results");
+        //alert("0 results");
     }
     
     $conn->close();
