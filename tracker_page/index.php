@@ -41,9 +41,9 @@
     $d = date("Y-m-d");
     $dlw = date("Y-m-d", time()-60*60*24*7);
     
-    $servername = "localhost";
+    $servername = "localhost:3307";
     $username = "root";
-    $password = "";
+    $password = "gustavBatman20";
     $dbname = "tracker";
 
     // Create connection

@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
+$servername = "localhost:3307";
 $username = "root";
-$password = "";
+$password = "gustavBatman20";
 $dbname = "tracker";
 
 // Create connection
@@ -27,7 +27,7 @@ $sql = "INSERT INTO activities VALUES ('".$d."','".$u."',".$t.")";
 if ($conn->query($sql) === TRUE) {
     alert("New record created successfully");
 } else {
-    alert("Error: " . $sql . "<br>" . $conn->error);
+    alert("Error: " . $sql . "<br>" . $conn>error);
 }
 
 $conn->close();
