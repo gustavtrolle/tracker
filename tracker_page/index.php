@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tracker - Test Collection</title>
+    <title>Tracker - My Test Website</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel|">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
@@ -15,19 +15,18 @@
     </div>
     <header id="header_collapse">
         <div id="header_logo">
-            <h1>The Test Collection</h1>
+            <h1>My Test Website</h1>
             <img src="../assets/img/avatar.png" width="40" height="60" id="header_logo_img">
         </div> 
     </header>
     <div id="header_shadow"></div>
     <nav id="main_nav">
         <ul>
-            <li><a href="https://gustavtrolle.github.io/index.html">Home</a></li>
+            <li><a href="https://pwang14.github.io">Home</a></li>
         </ul>
     </nav>
     <div class="body_stuff">
-        <h3>Time Tracker</h3>
-        <p>Coming Soon!</p>
+        <h3>Web Tracker</h3>
         <div id="timeline">
             <div class="l1">
             </div>
