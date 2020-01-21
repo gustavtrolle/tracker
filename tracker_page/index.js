@@ -112,7 +112,7 @@ loadActivities();
 
 document.addEventListener("click",function(e) {
     if (e.clientX>=202&&e.clientX<=252) {
-        var totalY = e.clientY + scrollY - 236;
+        var totalY = e.clientY + scrollY - 190;
         for (var i=0;i<activityArray.length;i++) {
             if (totalY>=activityArray[i].top&&totalY<=activityArray[i].bottom) {
                 if (activityArray[i].url!="not in use") {
